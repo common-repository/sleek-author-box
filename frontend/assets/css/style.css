@@ -1,0 +1,63 @@
+/**
+ * Sleek Author Box
+ */
+
+.sleekathrbox-inner .row {
+	--sab-gutter-x: 1.5rem;
+	--sab-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--sab-gutter-y) * -1);
+	margin-right: calc(var(--sab-gutter-x) * -0.5);
+	margin-left: calc(var(--sab-gutter-x) * -0.5);
+}
+
+.sleekathrbox-inner .col-12 {
+	flex: 0 0 auto;
+	width: 100%;
+}
+
+.sleekathrbox-inner .col {
+	flex: 1 0 0%;
+}
+
+.sleekathrbox-inner .row > * {
+	--sab-gutter-x: 1.5rem;
+	padding-right: calc(var(--sab-gutter-x) * 0.5);
+	padding-left: calc(var(--sab-gutter-x) * 0.5);
+}
+
+.sleekathrbox-inner .mt-4 {
+	margin-top: 1.188rem;
+}
+
+.sleekathrbox-inner .rounded-circle {
+	border-radius: 50%;
+}
+
+.sleekathrbox-social {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.sleekathrbox-social a {
+	line-height: 0;
+	text-decoration: none;
+}
+
+.sleekathrbox-edit {
+	font-size: 0.9rem;
+}
+
+.sleekathrbox-edit a {
+	color: #2271b1;
+}
+
+@media screen and (min-width: 768px) {
+	.sleekathrbox-inner .col-md-auto {
+		flex: 0 0 auto;
+		width: auto;
+	}
+}

@@ -1,0 +1,116 @@
+/* Skin 1 */
+
+.sleekathrbox-skin-1 {
+	padding: 1.188rem;
+	border-radius: 0.2rem;
+	background-color: #f5f5f5;
+}
+
+.sleekathrbox-skin-1 .sleekathrbox-avatar {
+	max-width: 100%;
+	width: 72px;
+	height: auto;
+}
+
+.sleekathrbox-skin-1 .sleekathrbox-name {
+	margin: 1rem 0 0;
+	font-size: 1.125rem;
+	line-height: 1.5;
+	font-weight: 500;
+	font-weight: 600;
+}
+
+.sleekathrbox-skin-1 .sleekathrbox-bio {
+	margin: 0.563rem 0 0;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.sleekathrbox-skin-1 .sleekathrbox-more {
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+.sleekathrbox-skin-1 .sleekathrbox-more:hover {
+	text-decoration: underline;
+}
+
+.sleekathrbox-skin-1 .sleekathrbox-more .icon {
+	margin-left: 0.25rem;
+	width: 12px;
+	height: auto;
+}
+
+.sleekathrbox-skin-1 .sleekathrbox-social {
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+}
+
+.sleekathrbox-skin-1 .sleekathrbox-social > a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+
+.sleekathrbox-skin-1 .sleekathrbox-social a .icon {
+	width: auto;
+	height: 16px;
+}
+
+@media screen and (min-width: 991px) {
+	.sleekathrbox-skin-1 {
+		padding: 2.5rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.sleekathrbox-skin-1 .sleekathrbox-name {
+		margin-top: 0;
+	}
+}
+
+/* Dark mode. */
+
+@media (prefers-color-scheme: dark) {
+	.sleekathrbox-skin-1 {
+		background-color: #000;
+	}
+
+	.sleekathrbox-skin-1,
+	.sleekathrbox-skin-1 .sleekathrbox-social > a,
+	.sleekathrbox-skin-1 .sleekathrbox-more {
+		color: #fff;
+	}
+
+	.sleekathrbox-skin-1 .sleekathrbox-social > a {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+
+	.sleekathrbox-skin-1 a,
+	.sleekathrbox-skin-1 .sleekathrbox-more {
+		display: inline-block;
+		text-decoration: underline;
+	}
+
+	.sleekathrbox-skin-1 .sleekathrbox-more .icon {
+		display: none;
+	}
+
+	.sleekathrbox-skin-1 .sleekathrbox-social > a,
+	.sleekathrbox-skin-1 .sleekathrbox-social > a:hover,
+	.sleekathrbox-skin-1 .sleekathrbox-social > a:focus {
+		background-color: #fff !important;
+	}
+
+	.sleekathrbox-skin-1 .sleekathrbox-social a .icon {
+		padding-right: 0;
+	}
+}
